@@ -1,0 +1,134 @@
+{
+  "response": {
+    "header": { "resultCode": "00", "resultMsg": "NORMAL SERVICE." },
+    "body": {
+      "pageNo": 1,
+      "totalCount": 50,
+      "items": {
+        "item": [
+          {
+            "depplandtime": 20170625055300,
+            "arrplandtime": 20170625071200,
+            "adultcharge": 7800,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "무궁화호"
+          },
+          {
+            "depplandtime": 20170625060100,
+            "arrplandtime": 20170625072000,
+            "adultcharge": 7800,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "무궁화호"
+          },
+          {
+            "depplandtime": 20170625065300,
+            "arrplandtime": 20170625081500,
+            "adultcharge": 7800,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "무궁화호"
+          },
+          {
+            "depplandtime": 20170625065900,
+            "arrplandtime": 20170625082200,
+            "adultcharge": 7800,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "누리로"
+          },
+          {
+            "depplandtime": 20170625072200,
+            "arrplandtime": 20170625083700,
+            "adultcharge": 11600,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "ITX-새마을"
+          },
+          {
+            "depplandtime": 20170625073200,
+            "arrplandtime": 20170625085300,
+            "adultcharge": 7800,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "무궁화호"
+          },
+          {
+            "depplandtime": 20170625080900,
+            "arrplandtime": 20170625092700,
+            "adultcharge": 7800,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "무궁화호"
+          },
+          {
+            "depplandtime": 20170625081900,
+            "arrplandtime": 20170625094100,
+            "adultcharge": 7800,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "무궁화호"
+          },
+          {
+            "depplandtime": 20170625085600,
+            "arrplandtime": 20170625101300,
+            "adultcharge": 0,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "ITX-새마을"
+          },
+          {
+            "depplandtime": 20170625090100,
+            "arrplandtime": 20170625102600,
+            "adultcharge": 7800,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "무궁화호"
+          },
+          {
+            "depplandtime": 20170625091900,
+            "arrplandtime": 20170625104200,
+            "adultcharge": 7800,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "무궁화호"
+          },
+          {
+            "depplandtime": 20170625092600,
+            "arrplandtime": 20170625103800,
+            "adultcharge": 11600,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "ITX-새마을"
+          },
+          {
+            "depplandtime": 20170625095400,
+            "arrplandtime": 20170625110900,
+            "adultcharge": 11600,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "ITX-새마을"
+          },
+          {
+            "depplandtime": 20170625100800,
+            "arrplandtime": 20170625112800,
+            "adultcharge": 7800,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "무궁화호"
+          },
+          {
+            "depplandtime": 20170625104700,
+            "arrplandtime": 20170625120300,
+            "adultcharge": 7800,
+            "arrplacename": "조치원",
+            "depplacename": "영등포",
+            "traingradename": "무궁화호"
+          }
+        ]
+      },
+      "numOfRows": 15
+    }
+  }
+}

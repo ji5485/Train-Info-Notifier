@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dimigo.project.PublicTransitCtrl">
+   <children>
+      <TabPane prefHeight="600.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="열차 정보">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ComboBox fx:id="region" layoutX="84.0" layoutY="58.0" prefWidth="150.0" promptText="지역 선택" />
+                     </children>
+                  </AnchorPane>
+               </content></Tab>
+          <Tab text="지하철 정보" />
+          <Tab text="시외버스 정보" />
+          <Tab text="고속버스 정보" />
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

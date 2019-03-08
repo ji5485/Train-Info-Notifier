@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dimigo.project.ErrorCtrl">
+   <children>
+      <Label fx:id="label" layoutX="67.0" layoutY="-10.0" prefHeight="50.0" prefWidth="300.0" text="해당하는 열차 정보가 없습니다." textAlignment="CENTER" />
+      <Button layoutX="75.0" layoutY="34.0" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="150.0" text="닫기" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="480.0" prefWidth="705.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dimigo.project.TrainCtrl">
+   <children>
+      <ComboBox fx:id="CBregion" layoutX="23.0" layoutY="20.0" prefHeight="30.0" prefWidth="131.0" promptText="지역 선택" />
+      <ListView fx:id="LVplatform" layoutX="23.0" layoutY="59.0" prefHeight="182.0" prefWidth="200.0" />
+      <Button layoutX="163.0" layoutY="20.0" mnemonicParsing="false" onAction="#getPlatform" prefHeight="30.0" prefWidth="60.0" text="조회" />
+      <Button layoutX="23.0" layoutY="248.0" mnemonicParsing="false" onAction="#setDeparture" prefHeight="30.0" prefWidth="95.0" text="출발지 설정" />
+      <Button layoutX="128.0" layoutY="248.0" mnemonicParsing="false" onAction="#setDestination" prefHeight="30.0" prefWidth="95.0" text="도착지 설정" />
+      <TextField fx:id="Departure" layoutX="73.0" layoutY="298.0" prefHeight="30.0" prefWidth="150.0" />
+      <TextField fx:id="Destination" layoutX="73.0" layoutY="331.0" prefHeight="30.0" prefWidth="150.0" />
+      <Label layoutX="23.0" layoutY="304.0" text="출발지" />
+      <Label layoutX="23.0" layoutY="337.0" text="도착지" />
+      <DatePicker fx:id="DPdepartDate" layoutX="73.0" layoutY="373.0" prefHeight="30.0" prefWidth="150.0" />
+      <Button layoutX="23.0" layoutY="420.0" mnemonicParsing="false" onAction="#getTrainInfo" prefHeight="30.0" prefWidth="200.0" text="검색" />
+      <Label layoutX="23.0" layoutY="381.0" text="출발일" />
+      <TableView fx:id="TVTrainInfo" layoutX="250.0" layoutY="20.0" prefHeight="383.0" prefWidth="430.0">
+         <columns>
+            <TableColumn fx:id="trainNameColumn" prefWidth="100.0" text="차량 종류" />
+            <TableColumn fx:id="departColumn" maxWidth="110.0" prefWidth="110.0" text="출발" />
+            <TableColumn fx:id="arrivalColumn" maxWidth="110.0" prefWidth="110.0" text="도착" />
+            <TableColumn fx:id="chargeColumn" prefWidth="90.0" text="가격" />
+         </columns>
+      </TableView>
+      <Button layoutX="250.0" layoutY="420.0" mnemonicParsing="false" onAction="#prevPage" prefHeight="30.0" prefWidth="100.0" text="이전" />
+      <Button layoutX="580.0" layoutY="420.0" mnemonicParsing="false" onAction="#nextPage" prefHeight="30.0" prefWidth="100.0" text="다음" />
+      <Label layoutX="22.0" layoutY="458.0" text="이전, 다음 버튼이 작동하지 않을 시 재검색 후 사용" />
+   </children>
+</AnchorPane>

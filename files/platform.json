@@ -1,0 +1,28 @@
+{
+  "response": {
+    "header": { "resultCode": "00", "resultMsg": "NORMAL SERVICE." },
+    "body": {
+      "pageNo": 1,
+      "totalCount": 14,
+      "items": {
+        "item": [
+          { "nodename": "서울", "nodeid": "NAT010000" },
+          { "nodename": "용산", "nodeid": "NAT010032" },
+          { "nodename": "영등포", "nodeid": "NAT010091" },
+          { "nodename": "상봉", "nodeid": "NAT020040" },
+          { "nodename": "서빙고", "nodeid": "NAT130036" },
+          { "nodename": "옥수", "nodeid": "NAT130070" },
+          { "nodename": "왕십리", "nodeid": "NAT130104" },
+          { "nodename": "청량리", "nodeid": "NAT130126" },
+          { "nodename": "광운대", "nodeid": "NAT130182" },
+          { "nodename": "화랑대", "nodeid": "NAT140044" },
+          { "nodename": "홍대입구", "nodeid": "NATC10061" },
+          { "nodename": "디엠씨", "nodeid": "NATC10095" },
+          { "nodename": "김포공항", "nodeid": "NATC10204" },
+          { "nodename": "수서", "nodeid": "NATH30000" }
+        ]
+      },
+      "numOfRows": 50
+    }
+  }
+}
